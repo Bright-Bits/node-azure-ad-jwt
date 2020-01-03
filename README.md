@@ -6,7 +6,7 @@ If you are using Azure AAD tokens in every request against your API additional c
 ## Usage
 
 ```javascript
-var aad     = require('azure-ad-jwt-v2');
+var aad = require('azure-ad-jwt-v2');
 
 var jwtToken = '<<yourtoken>>';
 
