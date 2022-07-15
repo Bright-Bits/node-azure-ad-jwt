@@ -1,14 +1,14 @@
 {
-  "name": "azure-ad-jwt-v2",
+  "name": "azure-ad-jwt-validator",
   "description": "An Azure Active Directory Token Validation component for node.js that supports AAD v2",
-  "version": "2.1.4",
+  "version": "3.0.1",
   "author": {
-    "name": "Dirk Eisenberg"
+    "name": "Brendan Andrade"
   },
   "main": "./lib/azure-ad-jwt.js",
   "dependencies": {
-    "jsonwebtoken": "^8.0.1",
-    "request": "^2.82.0"
+    "jsonwebtoken": "^8.5.1",
+    "request": "^2.88.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jgage176/node-azure-ad-jwt.git"
+    "url": "git+https://github.com/Bright-Bits/node-azure-ad-jwt.git"
   },
   "keywords": [
     "azure",
@@ -31,13 +31,13 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jgage176/node-azure-ad-jwt/issues"
+    "url": "https://github.com/Bright-Bits/node-azure-ad-jwt/issues"
   },
-  "homepage": "https://github.com/jgage176/node-azure-ad-jwt",
+  "homepage": "https://github.com/Bright-Bits/node-azure-ad-jwt",
   "maintainers": [
     {
-      "name": "jgage176",
-      "email": "jgage176@gmail.com"
+      "name": "Brendan Andrade",
+      "email": "brendan@brightbits.app"
     }
   ]
 }
